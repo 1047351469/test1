@@ -13,7 +13,7 @@ import java.util.Map;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserDto {
+public class UserDTO {
     private String name;
     private int age;
     private LocalDate birthday;
@@ -21,6 +21,7 @@ public class UserDto {
     private List<String> roles;
     private Map<String, Object> metadata;
     private String[] hobbies;
+    private AddressDTO addressDTO;
 
 
 

@@ -1,43 +1,45 @@
 package xml;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestXml {
     public static void main(String[] args) throws Exception {
-        // 构造 UserDTO 列表
-        UserDTO user1 = new UserDTO();
-        user1.setName("Alice");
-        user1.setAge(30);
+        PersonDTO person = new PersonDTO();
+        person.setId(1);
+        person.setName("Alice");
 
-        UserDTO user2 = new UserDTO();
-        user2.setName("Bob");
-        user2.setAge(25);
+        person.setHobbies(Arrays.asList("Reading", "Coding"));
+        person.setTags(new HashSet<>(Arrays.asList("engineer", "blogger")));
 
-        UserListWrapper userListWrapper = new UserListWrapper();
-        userListWrapper.setUsers(Arrays.asList(user1, user2));
+        Map<String, String> attr = new HashMap<>();
+        attr.put("lang", "Java");
+        attr.put("level", "senior");
+        person.setAttributes(attr);
 
-        // 构造响应对象
-        ResponseDataDTO response = new ResponseDataDTO();
-        response.setCode(200);
-        response.setStatus("success");
-        response.setData(userListWrapper);
+        AddressDTO addr = new AddressDTO();
+        addr.setCity("Tokyo");
+        addr.setZip("100-0001");
+        person.setAddress(addr);
 
-        // 1. 序列化为 XML
-        String xml = XmlUtils.serialize(response);
-        System.out.println("=== XML ===");
-        System.out.println(xml);
+        // DTO → XML
+        String xml = XmlUtils.serialize(person);
+        System.out.println("生成されたXML：\n" + xml);
 
-        // 2. 反序列化回对象
-        ResponseDataDTO parsed = XmlUtils.deserialize(xml);
-        Object data = parsed.getData();
-
-        System.out.println("\n=== Deserialized ===");
-        if (data instanceof UserListWrapper) {
-            ((UserListWrapper) data).getUsers().forEach(u ->
-                    System.out.println(u.getName() + " / " + u.getAge())
-            );
-        } else {
-            System.out.println("data 类型不是 UserListWrapper");
-        }
+        // XML → DTO
+        PersonDTO result = XmlUtils.deserialize(xml, PersonDTO.class);
+        System.out.println(result);
+        // 	フィールドの値が一致するか確認する
+        assertEquals(1, result.getId());
+        assertEquals("Alice", result.getName());
+        assertTrue(result.getHobbies().contains("Reading"));
+        assertTrue(result.getTags().contains("engineer"));
+        assertEquals("Java", result.getAttributes().get("lang"));
+        assertEquals("Tokyo", result.getAddress().getCity());
     }
-}
+    }

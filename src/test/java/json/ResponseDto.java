@@ -11,9 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class ResponseDto<T> {
     private int code;
-
-    @JsonProperty("message")
-    private String msg;
+    private String message;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private T data;

@@ -5,34 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="703d6665-5d55-48b3-8f06-71d597e25fc3" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anyi/reggie/config/MessageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sum_test_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/json/JsonConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/json/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/json/TestJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/json/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/ApiInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/CommonCodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/MessageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/Regex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/ScreenInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/TestConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xml/ResponseDataDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xml/TestXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xml/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xml/UserListWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xml/XmlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/userList.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/json/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xml/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xml/MapAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xml/PersonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/user.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anyi/reggie/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anyi/reggie/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anyi/reggie/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anyi/reggie/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/getCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/json/JsonConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/json/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/json/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/json/ResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/json/TestJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/json/TestJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/json/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/json/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xml/ResponseDataDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xml/TestXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xml/TestXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xml/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xml/UserListWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xml/XmlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xml/XmlUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/userList.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ReggieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ReggieApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/common/CommentRedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/common/CommentRedis.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/common/CustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/common/CustomException.class" afterDir="false" />
@@ -42,6 +32,7 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/common/UserContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/common/UserContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/config/CorsConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/config/DynamicImportSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/config/DynamicImportSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/config/MessageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/config/MessageUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/config/MyMetaObjectHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/config/MyMetaObjectHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/config/MybatisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/config/MybatisConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/config/RedisConfig.class" afterDir="false" />
@@ -88,17 +79,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/SetmealMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/SetmealMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/ShoppingCartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/ShoppingCartMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/xml/AddressBookMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/xml/CategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/xml/DishFlavorMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/xml/DishMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/xml/EmployeeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/xml/OrderDetailMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/xml/OrdersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/xml/SetmealDishMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/xml/SetmealMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/xml/ShoppingCartMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/mapper/xml/UserMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/service/AddressBookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/service/AddressBookService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/service/CategoryService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/service/DishFlavorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/service/DishFlavorService.class" afterDir="false" />
@@ -122,14 +102,24 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/service/impl/ShoppingCartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/service/impl/ShoppingCartServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/anyi/reggie/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anyi/reggie/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/UserConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/UserConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reggie-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/reggie-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/getCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/json/JsonConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/json/ResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/json/ResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/json/TestJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/json/TestJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/json/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/json/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userList.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/userList.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/ApiInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/ApiInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/ApiInfoUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/ApiInfoUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/CommonCodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/CommonCodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/MessageInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/MessageInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/Regex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/ScreenInfo$Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/ScreenInfo$Screen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/ScreenInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/ScreenInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/TestConst.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/TestConst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/xml/ResponseDataDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/xml/TestXml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/xml/TestXml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/xml/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/xml/UserListWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/xml/XmlUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/xml/XmlUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +209,7 @@
       <recent name="com.anyi.reggie.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestConst.testGetMeseage">
+  <component name="RunManager" selected="Application.TestXml">
     <configuration name="TestJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="json.TestJson" />
       <module name="reggie" />
@@ -246,13 +236,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,10 +298,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestXml" />
+        <item itemvalue="Application.TestJson" />
         <item itemvalue="JUnit.TestConst.testGetMeseage" />
         <item itemvalue="JUnit.TestConst" />
-        <item itemvalue="Application.TestJson" />
-        <item itemvalue="Application.TestXml" />
         <item itemvalue="JUnit.getCode" />
       </list>
     </recent_temporary>
@@ -346,7 +338,9 @@
       <workItem from="1745144695020" duration="26000" />
       <workItem from="1745144730628" duration="2818000" />
       <workItem from="1746276485481" duration="62000" />
-      <workItem from="1747099758491" duration="10634000" />
+      <workItem from="1747099758491" duration="10774000" />
+      <workItem from="1747362551331" duration="1041000" />
+      <workItem from="1747376076253" duration="4717000" />
     </task>
     <servers />
   </component>
