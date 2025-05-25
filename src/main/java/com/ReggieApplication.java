@@ -9,6 +9,7 @@ import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.context.annotation.Import;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
@@ -22,6 +23,7 @@ import java.util.Date;
  */
 @SpringBootApplication
 @ServletComponentScan
+@EnableAspectJAutoProxy
 @EnableTransactionManagement
 @MapperScan(basePackages = "com.anyi.reggie.mapper")
 @Import({DynamicImportSelector.class})

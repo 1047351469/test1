@@ -4,13 +4,16 @@ import com.ReggieApplication;
 import com.anyi.reggie.config.MessageUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.regex.Pattern;
 
 import static util.ScreenInfo.*;
 
 @SpringBootTest(classes = ReggieApplication.class)
+@WebMvcTest()
 public class TestConst {
     @Autowired
     private MessageUtil messageUtil;
@@ -40,4 +43,5 @@ public class TestConst {
         System.out.println(ApiInfoUtils.getApiIdList());
 
     }
+//    https://zhuanlan.zhihu.com/p/651044202
 }

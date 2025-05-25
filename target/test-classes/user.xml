@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+    <id>1</id>
+    <name>Alice</name>
+    <hobbies>
+        <hobby>Reading</hobby>
+        <hobby>Coding</hobby>
+    </hobbies>
+    <tags>
+        <tag>blogger</tag>
+        <tag>engineer</tag>
+    </tags>
+    <attributes>
+        <entry key="level">senior</entry>
+        <entry key="lang">Java</entry>
+    </attributes>
+    <address>
+        <city>Tokyo</city>
+        <zip>100-0001</zip>
+    </address>
+</person>

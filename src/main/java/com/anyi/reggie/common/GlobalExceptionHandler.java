@@ -28,11 +28,14 @@ public class GlobalExceptionHandler {
     }
     @ExceptionHandler(value = RuntimeException.class)
     public R<String> runtimeException(Exception ex){
+        System.out.println("RuntimeException");
+
         ex.printStackTrace();
         return R.error("休息一下稍后回来");
     }
     @ExceptionHandler(value = Exception.class)
     public R<String> exceptionHandler(Exception ex){
+        System.out.println("Exception");
         ex.printStackTrace();
         return R.error("服务器异常");
     }

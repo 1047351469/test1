@@ -18,6 +18,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -67,6 +68,7 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
     @Override
     @Transactional
     public Page<DishDto> pageSearch(int page, int pageSize, String name) {
+
         // 创建分页
         Page<Dish> pageInfo = new Page<>(page, pageSize);
         // 返回页面的分页
@@ -104,6 +106,7 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
      */
     @Override
     public DishDto getDishById(Long id) {
+
         // 根据id查询菜品信息
         DishDto dishDto = new DishDto();
         Dish dish = getById(id);
